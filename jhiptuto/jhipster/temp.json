@@ -1,0 +1,33 @@
+{
+    "relationships" :  [],
+    "fields":[
+        {
+            "fieldid" : 1,
+            "fieldname" : "ttccode",
+            "fieldtype": "Integer",
+            "fieldvalidaterules":[
+                "required"
+            ]
+        },
+        {
+            "fieldid" : 2,
+            "fieldname" : "name",
+            "fieldtype": "String",
+            "fieldvalidaterules":[
+                "required"
+            ]
+        },
+        {
+            "fieldid" : 3,
+            "fieldname" : "address",
+            "fieldtype": "String",
+            "fieldvalidaterules":[
+                "required"
+            ]
+        }
+    ],
+    "changelogdate": "2016031590921",
+    "dto" : "no",
+    "pagination" : "pagination"
+
+}
